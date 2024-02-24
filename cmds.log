@@ -1,0 +1,125 @@
+    1  printenv
+    2  grep "-V" < man grep
+    3  man grep
+    4  grep "-V" < `man grep`
+    5  printenv | more
+    6  printenv | more
+    7  printenv | less
+    8  printenv | more
+    9  a=123
+   10  a=a+1
+   11  echo $a
+   12  a
+   13  a=$a+1
+   14  $a
+   15  a=1
+   16  a=$a+1
+   17  echo $a
+   18  a=1
+   19  a=$($(a))
+   20  a=$($(a+1))
+   21  a=$(($a+1))
+   22  echo $a
+   23  b=$(($a+1))
+   24  echo $b
+   25  a=$(($a+1))
+   26  echo $a
+   27  c=1
+   28  c=$(($c+1))
+   29  echo $c
+   30  d=1
+   31  d=$($d+1)
+   32  echo $c
+   33  echo $((1+1))
+   34  echo $(1+1)
+   35  echo 1+1
+   36  echo $((1+1))
+   37  exit
+   38  echo $c
+   39  exit
+   40  pwd
+   41  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   42  ls
+   43  head spotify-2023.csv 
+   44  vi spotify-2023.csv 
+   45  exit
+   46  ls
+   47  vi spotify-2023.csv 
+   48  head spotify-2023.csv 
+   49  sort spotify-2023.csv 
+   50  head spotify-2023.csv 
+   51  vi spotify-2023.csv 
+   52  vi test.txt
+   53  cat test.txt 
+   54  sort test.txt 
+   55  cat test.txt 
+   56  ls
+   57  vi demo.txt
+   58  ls
+   59  vi demo.txt
+   60  ls
+   61  "hello world" > demo.txt
+   62  "hello world" >> demo.txt
+   63  echo "hello world"
+   64  echo "hello world" > demo.txt
+   65  cat demo.txt 
+   66  echo "hello world 2" > demo.txt
+   67  cat demo.txt 
+   68  echo "hello world 3" >> demo.txt
+   69  cat demo.txt 
+   70  sort test.txt > sortedTest.txt
+   71  cat sortedTest.txt 
+   72  echo "hello world 3" > demo.txt
+   73  cat demp
+   74  cat demo.txt 
+   75  history
+   76  exit
+   77  history
+   78  passwd
+   79  wget www.github.com
+   80  cd cs131
+   81  cs-131
+   82  ls
+   83  mkdir cs-131
+   84  cd cs-131
+   85  ls
+   86  mkdir worksheet1
+   87  ls
+   88  cd worksheet1/
+   89  history > cmds.log"
+   90  ls
+   91  history > cmds.log
+   92  bash 
+   93  rm cs-131/
+   94  ls
+   95  rm -R demo.txt 
+   96  ls
+   97  rm -R cs-131
+   98  rm -R index.html 
+   99  rm -R sortedTest.txt 
+  100  rm -R spotify-2023.csv 
+  101  rm -R test.txt 
+  102  ls
+  103  mkdir cs-131
+  104  cd cs-131/
+  105  mkdir worksheet1
+  106  cd worksheet1/
+  107  cd ..
+  108  rm -R cs-131/
+  109  ls
+  110  wget www.github.com
+  111  ls
+  112  wget www.github.com
+  113  ls
+  114  cd index.html
+  115  rm -R
+  116  rm -R index.html
+  117  ls
+  118  rm -R index.html.1 
+  119  ls
+  120  wget www.github.com
+  121  ls
+  122  mkdir cs131
+  123  cd cs131
+  124  mkdir worksheet1
+  125  history > cmds.log
