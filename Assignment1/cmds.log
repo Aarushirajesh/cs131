@@ -1,0 +1,5 @@
+cd cs131/
+mkdir Assignment1
+cd Assignment1/
+script a1.txt
+history > cmds.log
