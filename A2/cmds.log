@@ -1,0 +1,350 @@
+    1  printenv
+    2  grep "-V" < man grep
+    3  man grep
+    4  grep "-V" < `man grep`
+    5  printenv | more
+    6  printenv | more
+    7  printenv | less
+    8  printenv | more
+    9  a=123
+   10  a=a+1
+   11  echo $a
+   12  a
+   13  a=$a+1
+   14  $a
+   15  a=1
+   16  a=$a+1
+   17  echo $a
+   18  a=1
+   19  a=$($(a))
+   20  a=$($(a+1))
+   21  a=$(($a+1))
+   22  echo $a
+   23  b=$(($a+1))
+   24  echo $b
+   25  a=$(($a+1))
+   26  echo $a
+   27  c=1
+   28  c=$(($c+1))
+   29  echo $c
+   30  d=1
+   31  d=$($d+1)
+   32  echo $c
+   33  echo $((1+1))
+   34  echo $(1+1)
+   35  echo 1+1
+   36  echo $((1+1))
+   37  exit
+   38  echo $c
+   39  exit
+   40  pwd
+   41  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/spotify-2023.csv
+   42  ls
+   43  head spotify-2023.csv 
+   44  vi spotify-2023.csv 
+   45  exit
+   46  ls
+   47  vi spotify-2023.csv 
+   48  head spotify-2023.csv 
+   49  sort spotify-2023.csv 
+   50  head spotify-2023.csv 
+   51  vi spotify-2023.csv 
+   52  vi test.txt
+   53  cat test.txt 
+   54  sort test.txt 
+   55  cat test.txt 
+   56  ls
+   57  vi demo.txt
+   58  ls
+   59  vi demo.txt
+   60  ls
+   61  "hello world" > demo.txt
+   62  "hello world" >> demo.txt
+   63  echo "hello world"
+   64  echo "hello world" > demo.txt
+   65  cat demo.txt 
+   66  echo "hello world 2" > demo.txt
+   67  cat demo.txt 
+   68  echo "hello world 3" >> demo.txt
+   69  cat demo.txt 
+   70  sort test.txt > sortedTest.txt
+   71  cat sortedTest.txt 
+   72  echo "hello world 3" > demo.txt
+   73  cat demp
+   74  cat demo.txt 
+   75  history
+   76  exit
+   77  history
+   78  passwd
+   79  wget www.github.com
+   80  cd cs131
+   81  cs-131
+   82  ls
+   83  mkdir cs-131
+   84  cd cs-131
+   85  ls
+   86  mkdir worksheet1
+   87  ls
+   88  cd worksheet1/
+   89  history > cmds.log"
+   90  ls
+   91  history > cmds.log
+   92  bash 
+   93  rm cs-131/
+   94  ls
+   95  rm -R demo.txt 
+   96  ls
+   97  rm -R cs-131
+   98  rm -R index.html 
+   99  rm -R sortedTest.txt 
+  100  rm -R spotify-2023.csv 
+  101  rm -R test.txt 
+  102  ls
+  103  mkdir cs-131
+  104  cd cs-131/
+  105  mkdir worksheet1
+  106  cd worksheet1/
+  107  cd ..
+  108  rm -R cs-131/
+  109  ls
+  110  wget www.github.com
+  111  ls
+  112  wget www.github.com
+  113  ls
+  114  cd index.html
+  115  rm -R
+  116  rm -R index.html
+  117  ls
+  118  rm -R index.html.1 
+  119  ls
+  120  wget www.github.com
+  121  ls
+  122  mkdir cs131
+  123  cd cs131
+  124  mkdir worksheet1
+  125  history > cmds.log
+  126  ls
+  127  mv cmds.log worksheet1/
+  128  ls
+  129  cd worksheet1
+  130  git init
+  131  git add cmds.log 
+  132  git commit -m "ws1"
+  133  aarushi.rajesh@sjsu.edu
+  134  cd ..
+  135  git init
+  136  git add ws1
+  137  git commit -m "ws1"
+  138   git config --global user.email aarushi.rajesh@sjsu.edu
+  139  git commit -m "ws1"
+  140  git config --global user.email "you@example.com"
+  141  git config --global user.email aarushi.rajesh@sjsu.edu
+  142  git config --global user.name Aarushirajesh
+  143  git commit -m "ws1
+  144  cd cs131/
+  145  cd worksheet1/
+  146  ls
+  147  vi cmds.log
+  148  cd ..
+  149  git init
+  150  git add
+  151  git add .
+  152  cd ..
+  153  cd cs131
+  154  cd worksheet1/
+  155  git init
+  156  git add .
+  157  git commit -m "ws1"
+  158  cd cs131
+  159  ls
+  160  cd worksheet1/
+  161  ls
+  162  vi cmds.log 
+  163  git init
+  164  git add .
+  165  git push -all
+  166  git push -_all
+  167  git push --all
+  168  git push cmd.log
+  169  cd cs13
+  170  cd cs131/
+  171  git init
+  172  git add .
+  173  git status
+  174  git commit -m "ws1"
+  175  cd worksheet1/
+  176  git status
+  177  ls
+  178  git init
+  179  git add .
+  180  gir status
+  181  git status
+  182  history
+  183  git commit -m "ws1"
+  184  git add .
+  185  git commit -m "ws1"
+  186  git push --all
+  187  ls
+  188  cd cs131/
+  189  cd worksheet1/
+  190  git add
+  191  git add .
+  192  git status
+  193  ls
+  194  vi cmds.log 
+  195  git add .
+  196  git commit -m "WS1"
+  197  git remote add origin https://github.com/Aarushirajesh/cs131.git
+  198  git push -u origin master
+  199  git remote add origin git@github.com:Aarushirajesh/cs131.git
+  200  git push -u origin master
+  201   git push -u origin master
+  202  git push -u origin master
+  203  git push
+  204  git push 
+  205  cd ..
+  206  git init 
+  207  git add
+  208  git add .\
+  209  cd cs131/
+  210  git init
+  211  git add .
+  212  git commit -m "ws1"
+  213  git push
+  214  git git remote add origin git@github.com:Aarushirajesh/cs131.git
+  215  git push
+  216  git push origin master
+  217  git push -u origin master
+  218  git clone git@github.com:Aarushirajesh/cs131.git
+  219  git clone https://github.com/Aarushirajesh/cs131
+  220  sudo cat /etc/shadow
+  221  cd cs131/
+  222  mkdir Worksheet2
+  223  cd Worksheet2/
+  224  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  225  ls
+  226  grep man
+  227  cd cs131/
+  228  ls
+  229  cd Worksheet2/
+  230  ls
+  231  history
+  232  ls
+  233  grep "United States" "Global YouTube Statistics.csv" 
+  234  grep "Music" "Global YouTube Statistics.csv" 
+  235  wc 
+  236  cd cs131/
+  237  cd Worksheet2/
+  238  history
+  239  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  240  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  241  vi counts.txt
+  242  nano counts.txt 
+  243  vi counts.txt 
+  244  cd cs131/
+  245  cd Worksheet2/
+  246  history
+  247  history > cmds.log
+  248  cd ..
+  249  git git status
+  250  git init
+  251  git status
+  252  git add Worksheet2/
+  253  git commit -m "WS2"
+  254  git push -all
+  255  git push --all
+  256  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
+  257  git remote add origin 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
+  258  git remote add origin https://github.com/Aarushirajesh/cs131
+  259  git push -u origin --all
+  260  git status
+  261  cd cs131/
+  262  git status
+  263  cd Worksheet2/
+  264  git status
+  265  cd ..
+  266  git init
+  267  git add Worksheet2/
+  268  git commit -m "WS2"
+  269  git add cs131/
+  270  git commit -m "WS2"
+  271  git rm --cached cs131
+  272  rm -rf cs131/
+  273  git add .
+  274  git commit -m "contents of cs131"
+  275  git push --all
+  276  git push -u origin master
+  277  git remote add origin https://github.com/Aarushirajesh/cs131
+  278  git push -u origin --all
+  279  git remote -v
+  280  git remote set-url origin https://github.com/Aarushirajesh/cs131.git
+  281  git remote -v
+  282  git push -u origin master
+  283  git remote set-url origin https://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@github.com/Aarushirajesh/cs131.git
+  284  git push -u origin master
+  285  git pull origin master
+  286  git pull origin master --allow-unrelated-histories
+  287  git push -u origin master
+  288  git clone https://github.com/Aarushirajesh/cs131.git
+  289  exist
+  290  exit
+  291  script capture.log
+  292  ls
+  293  rm capture.log 
+  294  ls
+  295  history
+  296  cd cs131/
+  297  script a1
+  298  echo $SHELL
+  299  echo $HOME
+  300  id
+  301  mkdir myDir
+  302  u-w myDir
+  303  chmod u-w myDir
+  304  ls
+  305  cd myDir/
+  306  ls
+  307  ls -l
+  308  touch task4.txt
+  309  cd ..
+  310  mkdir myDir2
+  311  mkdir myDir3
+  312  ls
+  313  cd myDir2/
+  314  touch myFile.txt
+  315  mv myFile.txt ../myDir3
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd myDir3/
+  320  ls
+  321  free
+  322  man free
+  323  free -m
+  324  cat /etc/os-release
+  325  ls -l/etc/os-release
+  326  ls -l /etc/os-release
+  327  exit
+  328  cd cs131/
+  329  mkdir Assignment1
+  330  cd Assignment1/
+  331  script a1.txt
+  332  history > cmds.log
+  333  nano cmds.log 
+  334  nano a1.txt 
+  335  cd ..
+  336  git add
+  337  git add . 
+  338  git commit -m "A1"
+  339  git status
+  340  git push orgin master
+  341  git push -u orgin master
+  342  git push -u origin master
+  343  git clone https://github.com/Aarushirajesh/cs131.git
+  344  find /etc -type f > one.txt 2> two.txt
+  345  cat one.txt
+  346  cat two.txt
+  347  cut -d',' -f3,4 Global YouTube Statistics.csv | sort | uniq -c | sort -nr | head -3
+  348  ps -u aarushisp24
+  349  pgrep systemd
+  350  history > cmds.log
