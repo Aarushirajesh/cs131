@@ -1,0 +1,31 @@
+  631  cd cs131/
+  632  mkdir Assignment3
+  633  cd Assignment3/
+  634  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  635  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  636  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  637  vi Assignment3.txt
+  638  wc -l last.fake > Assignment3.txt
+  639  vi Assignment3.txt
+  640  nano Assignment3.txt
+  641  grep "sp24" last.fake > lastsp24.fake
+  642  wc -l lastsp24.fake > Assignment3.txt
+  643  nano Assignment3.txt
+  644  wc -l lastsp24.fake >> Assignment3.txt
+  645  nano Assignment3.txt
+  646  grep "Sun" lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of p$
+  647  vi Assignment3.txt
+  648  nano Assignment3.txt
+  649  awk '$4 >= "23:00" || $4 <= "04:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {pr$
+  650  nano Assignment3.txt
+  653  awk '$4 >= "05:00" && $4 <= "09:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {pr$
+  654  awk '$1 ~ /^t/' lastsp24.fake | awk '{print $1}' | sort | uniq >> Assignment3.txt
+  655  nano Assignment3.txt
+  656   awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3.t$
+  657  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assigment3.txt
+  658  nano Assignment3.txt
+  659  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+  660  awk -F ':' '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3.txt
+  661  nano Assignment3.txt
+  662  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u >> Assignment3.txt
+  663  cmds.log
