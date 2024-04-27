@@ -1,0 +1,27 @@
+ 769  mkdir Worksheet5
+  770  cd Worksheet5
+  771  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Glo$
+  772  nano script.sh
+  773  chmod +x script.sh
+  774  ./script.sh
+  775  ls
+  776  cat ws5.txt
+  777  cd ..
+  778  cd Worksheet5
+  779  nano script.sh
+  780  chmod +x script.sh
+  781  ./script.sh
+  782  cat ws5.txt
+  783  nano script.sh
+  784  nano script.sh
+  785  chmod +x script.sh
+  786  ./script.sh
+  787  nano script.sh
+  788  chmod +x script.sh
+  789  ./script.sh
+  790  nano script.sh
+  791  chmod +x script.sh
+  792  ./script.sh
+  793  cat ws5.txt
+  794  history >> cmds.log
+
